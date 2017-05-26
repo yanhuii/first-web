@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>骨此尸彼的直播间</title>
+	<link rel="stylesheet" type="text/css" href="css/live.css">
+	<link rel="stylesheet" type="text/css" href="css/live2.css">
+	<script src='js/move2.js'></script>
+	<script type="text/javascript">
+		window.onload=function()
+		{
+			var oBtn=document.getElementById('span1');
+			var oBtn1=document.getElementById('span2');
+			var oDiv=document.getElementById('left');
+
+			oBtn.onclick=function()
+			{
+				oDiv.style.display='block';
+				oBtn.style.display='none';
+				oBtn1.style.display='block';
+				startMove(oDiv,{opacity:90,left:-232,});
+			}
+			oBtn1.onclick=function()
+			{
+				oBtn.style.display='block';
+				oBtn1.style.display='none';
+				startMove(oDiv,{opacity:100,left:0,});
+
+			}
+
+			var oTxt1=document.getElementById('txt1');
+		var oTxt2=document.getElementById('txt2');
+		var oBt=document.getElementById('btn');
+
+		oBt.onclick=function()
+		{
+			oTxt2.value=oTxt2.value+'游客3695126：'+oTxt1.value+'\n';//'\n' 换行
+			oTxt1.value='';
+			
+		}
+		}
+	</script>
+</head>
+<body>
+	<div id="all">
+	<div id="left" >
+		<div class="left-1"><h2><a class="left-1" href="index.html">松鼠直播</a></h2></div>
+
+		<div class="left-2"><input type="text" placeholder="搜主播/游戏">
+		<img src="images/live_29.gif">
+		</div>
+
+		<div class="left-3">
+			<li><a href="fenlei.html">全部</a></li>
+			<li><a href="shop.html">商场</a></li>
+			<li><a href="shuwo.html">鼠窝</a></li>
+		</div>
+
+		
+			<div class="left-a"><a class="left-a" href="javascript:;">我的订阅</a></div>
+			<div class="left-a"><a class="left-a" href="javascript:;">精彩推荐</a></div>
+		
+
+		
+
+		<div class="left-5">
+			<li class="left-item"><a href="javascript:;">英雄联盟</a></li>
+			<li class="left-item"><a href="javascript:;">守望先锋</a></li>
+			<li class="left-item"><a href="javascript:;">炉石传说</a></li>
+			<li class="left-item"><a href="javascript:;">DOTA2</a></li>
+			<li class="left-item"><a href="javascript:;">魔兽世界</a></li>
+			<li class="left-item"><a href="javascript:;">穿越火线</a></li>
+			<li class="left-item"><a href="javascript:;">CS:GO</a></li>
+			<li class="left-item"><a href="javascript:;">风暴英雄</a></li>
+			<li class="left-item"><a href="javascript:;">星际争霸</a></li>
+
+	
+			<li class="left-item"><a href="javascript:;">户外直播</a></li>
+			<li class="left-item"><a href="javascript:;">音乐</a></li>
+			<li class="left-item"><a href="javascript:;">萌宠乐园</a></li>
+			<li class="left-item"><a href="javascript:;">桌游</a></li>
+			<li class="left-item"><a href="javascript:;">松鼠秀场</a></li>
+			<li class="left-item"><a href="javascript:;">松鼠女神</a></li>
+
+		
+			<li class="left-item"><a href="javascript:;">主机游戏</a></li>
+			<li class="left-item"><a href="javascript:;">黎明杀机</a></li>
+			<li class="left-item"><a href="javascript:;">饥荒</a></li>
+			<li class="left-item"><a href="javascript:;">体育竞技</a></li>
+			<li class="left-item"><a href="javascript:;">我的世界</a></li>
+			<li class="left-item"><a href="javascript:;">格斗游戏</a></li>
+			<li class="left-item"><a href="javascript:;">拳皇97</a></li>
+			<li class="left-item"><a href="javascript:;">怀旧经典</a></li>
+			<li class="left-item"><a href="javascript:;">精灵宝贝</a></li>
+
+		
+			<li class="left-item"><a href="javascript:;">DNF</a></li>
+			<li class="left-item"><a href="javascript:;">魔兽世界</a></li>
+			<li class="left-item"><a href="javascript:;">流放之路</a></li>
+			<li class="left-item"><a href="javascript:;">天瑜</a></li>
+			<li class="left-item"><a href="javascript:;">战争游戏</a></li>
+			<li class="left-item"><a href="javascript:;">棋牌游戏</a></li>
+			<li class="left-item"><a href="javascript:;">外服游戏</a></li>
+			<li class="left-item"><a href="javascript:;">网络游戏</a></li>
+			<li class="left-item"><a href="javascript:;">冰河世纪</a></li>
+
+
+
+			<li class="left-item"><a href="javascript:;">江湖</a></li>
+			<li class="left-item"><a href="javascript:;">全民突击</a></li>
+			<li class="left-item"><a href="javascript:;">QQ飞车</a></li>
+			<li class="left-item"><a href="javascript:;">三国志</a></li>
+			<li class="left-item"><a href="javascript:;">快打旋风</a></li>
+			<li class="left-item"><a href="javascript:;">天龙八部</a></li>
+			<li class="left-item"><a href="javascript:;">怪物猎人</a></li>
+			<li class="left-item"><a href="javascript:;">斗战神</a></li>
+			<li class="left-item"><a href="javascript:;">阴阳师</a></li>
+
+
+			<li class="left-item"><a href="javascript:;">户外骑行</a></li>
+			<li class="left-item"><a href="javascript:;">音乐现场</a></li>
+			<li class="left-item"><a href="javascript:;">滑板专区</a></li>
+			<span id="span1"><img src="images/666.png"></span>
+			<span id="span2"><img src="images/777.png"></span>
+		</div>
+	</div>
+
+	<div id="center">
+	    
+	    <header>
+	    	<img class="img" src="images/live_01.gif"><b>骨此尸彼</b><br>
+	    	<span>霹雳啪啦趴趴<img src="images/live_20.gif"></span>
+	    	<sapn><img src="images/live_16.gif">户外直播</span>
+	    	<div><img src="images/live_10.gif">举报</div>
+	    	<div><img src="images/live_12.gif">分享</div>
+	    	<div><img src="images/live_14.gif">下载</div>
+	    	<div class="ding">订阅&nbsp;|&nbsp;46,879</div>
+	    </header>
+	    <img class="new" src="images/new.jpg">
+		<video src="video/video_huwai.mp4" controls="1" autoplay="1" loop=""></video>
+		<div class="gift">
+		     <span><img src="images/live_73.gif">41,963人</span>
+		     <div class="icon">
+		     <img src="images/live_70.gif">
+		     <img src="images/live_37.gif">
+		     <img src="images/live_40.gif">
+		     <img src="images/live_42.gif">
+		     <img src="images/live_44.gif">
+		     <img src="images/live_46.gif">
+		     <img src="images/live_48.gif">
+		     <img src="images/live_50.gif">
+		     <img src="images/live_52.gif">
+		     </div>
+		</div>
+
+
+
+	   <div class="information">
+	   	<h1>主播详情</h1><br>
+	   	<hr>
+	   	<pre>
+
+
+    记得早先少年时  
+
+    大家诚诚恳恳  
+
+    说一句 是一句  　
+	   		　  
+    清早上火车站  
+
+    长街黑暗无行人  
+
+    卖豆浆的小店冒着热气  
+	   		　　  
+    从前的日色变得慢 
+
+    车，马，邮件都慢  
+
+    一生只够爱一个人  
+	   		　　  
+    从前的锁也好看  
+
+    钥匙精美有样子  
+
+    你锁了 
+
+    人家就懂了     
+
+	   	</pre>
+	   </div>
+	</div>
+
+
+	<div id="right">
+		<div class="notice" title="直播公告：粉丝群：1154191140 3个龙虾得房管 1佛跳墙得微信 微博；一个丧尽天良的好人  欢迎关注 么么哒">
+			<img src="images/live_03.gif">&nbsp;直播公告：粉丝群:1154191140 3个龙虾得房管 1佛跳墙得微信 微博；一个丧尽天良的好人  欢迎关注 么么哒
+		</div>
+
+		<div class="tab">
+    <ul>
+        <li><a href="#item1">乱斗榜</a><div class="item item1" id="item1"><img src="images/comment1.png"></div></li>
+        <li><a href="#item2">总榜</a><div class="item item2" id="item2"><img src="images/coment2.png"></div></li>
+        <li><a href="#item3">周榜</a><div class="item item3" id="item3"><img src="images/comment3.png"></div>
+        </li>
+    </ul>
+		</div>
+
+		<textarea id="txt2" rows="45" cols="48">
+哈利波特特特大_: 。。。   
+浪浪鱼: 酷酷酷酷酷！！！！！！！！   
+晨曦zyt: 韩国的  
+森兰学长: 很帅啊啊啊啊啊啊啊！   
+我想要睡个懒觉: cool!   
+xmmpcfgsqwvzee: 人呢   
+xmzmizwcgj3ree: 我是来看腿的！   
+xmmpcfgsqwvzee: 滑板女神！  
+黑夜神影: 发生什么了 
+男爵灬筱哲: 很酷   
+xmzmizwcgj3ree: 受伤了！！！！！
+男爵灬筱哲: 很酷 很酷  很酷很酷很酷
+冬冬冬瓜瓜: 很酷   很酷很酷很酷
+故事并没有你: 很酷   很酷
+无情M: 很酷  
+xmzmizwcgj3ree: 很酷很酷很酷很酷很酷很酷很酷很酷
+小黑来了哦: 很酷！   
+mzmizwcgj3ree: ？？   
+稳了老哥o: 很酷很酷很酷很酷很酷很酷很酷很酷
+我叫红领巾   85558: ？   
+85558: 笑起来好美！
+</textarea><br>
+
+    <div id="coment">
+	
+	<img title="聊天消息颜色" src="images/live_64.gif">
+	<img title="表情" src="images/live_55.gif">
+	<img title="私信" src="images/live_67.gif">
+	<img src="images/live_57.gif">
+	<img src="images/live_59.gif">
+	<img src="images/live_61.gif"><br>
+    <input id="txt1" type="text" name=""  placeholder="与大家一起互动吧">
+	<input id="btn" type="button" name="" value="发送"><br>
+	</div>
+
+
+
+	</div>
+</body>
+</html>

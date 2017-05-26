@@ -1,0 +1,319 @@
+#all{
+	width: 1280px;
+	height: 1840px;
+	margin: auto;
+	font-family: 微软雅黑;
+	position: relative;
+	background:#f2f2f2;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#top{
+	width: 1280px;
+	height: 75px;
+	background-color: white;
+}
+#top h1{
+	width: 124px;
+	height: 75px;
+	margin-left: 50px;
+	float: left;
+	margin-top: 0px;
+}
+#top nav li,#top nav a{
+	width: 100px;
+	height: 75px;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+	color: gray;
+	float: left;
+}
+#top nav a:hover{
+	color: #dd5044;
+}
+#top nav li{
+	float: left;
+	list-style: none;
+	position: relative;
+    z-index: 2;
+}
+#p1{
+	width: 100px;
+	height: 75px;
+	background:#133d5e;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 624px;
+}
+nav{
+	float: left;
+	margin-left: 50px;
+	text-align: center;
+	line-height: 75px;
+}
+#sou{
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+#sou a{
+	color: gray;
+	text-decoration: none;
+}
+.search input{
+
+	outline: none;
+}
+#sou a:hover{
+	text-decoration: underline;
+}
+.search2{
+	width: 1000px;
+	height: 38px;
+	background: white;
+	float: left;
+	margin-left: 141px;
+	margin-top: 30px;
+}
+.search2 input{
+	width: 900px;
+	height: 38px;
+	border-radius: 5px;
+	border: 1px solid white;
+	outline: none;
+}
+.search2 input:hover{ 
+-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s; 
+border-color:rgba(137,135,135,.75); 
+-webkit-box-shadow:0 0 18px rgba(94,91,91,3); 
+} 
+.search3{
+	width: 100px;
+	height: 38px;
+	background: #fe5335;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	line-height: 38px;
+	float: right;
+	position: relative;
+	top: 0px;
+}
+.search3:hover{
+	font-size: 20px;
+}
+.tuijian{
+	background:#FFF;
+	width: 1000px;
+	height:50px;
+	font-size:20px;
+	float:left;
+	margin-top:20px;
+	margin-left:141px;
+	padding-left:20px;
+	padding-top:10px;
+}
+.tuijian img {
+	float:left;
+}
+.t1{
+	float:right;
+	font-size:14px;
+	padding-right:20px;
+}
+.t1 a{
+	text-decoration:none;
+	color:#666;
+}
+.t1 a:hover{
+	text-decoration:underline;
+	color:#F60;
+}
+	
+.bankuai{
+	background:#FFF;
+	width: 1000px;
+	height:110px;
+	float:left;
+	margin-top:1px;
+	margin-left:141px;
+	padding-left:20px;
+	font-size:14px;
+	
+}
+.bankuai1{
+	width:229px;
+	height:68px;
+	float:left;
+	margin-left:10px;
+	margin-top:20px;
+	line-height:25px;
+}
+
+.bankuai1 a{
+	padding-left:10px;
+	text-decoration:none;
+	color:#666;
+}
+.bankuai1 span{
+	color:#F60;
+}
+.bankuai1 span:hover{
+	font-size:16px;
+}
+.bankuai1 b{
+	color:#333;
+}
+.bankuai1 a:hover{
+	color:#F60;
+}
+
+.left{
+	width:724px;
+	height:1364px;
+	
+	float:left;
+	margin-top:20px;
+	margin-left:141px;
+}
+
+
+.left1{
+	width:724px;
+	height:112px;
+	background:#FFF;
+	padding-left:20px;
+	padding-top:15px;
+	margin-bottom:2px;
+}
+.left1 a{
+	text-decoration:none;
+	color:#999;
+	padding-left:10px;
+}
+.left1 a:hover{
+	color:#F60;
+}
+
+.zi{
+	font-size:12px;
+}
+	
+
+.right{
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	width:255px;
+	height:400px;
+}
+.right1{
+	background:#FFF;
+	width:255px;
+	height:50px;
+	text-align:left;
+	padding-left:10px;
+	line-height:50px;
+	font-size:20px;
+	margin-bottom:1px;
+}
+.right2{
+	background:#FFF;
+	width:255px;
+	height:340px;
+}
+
+li{
+	overflow:hidden;
+}
+
+.right3{
+	background:#FFF;
+	height: 35px;
+	width:255px;
+	line-height: 35px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+
+.right3 a{
+	text-decoration: none;
+	color: #525252;
+}
+.right3 a:hover{
+	color: #F60;
+}
+
+
+.foot{
+	width:600px;
+	height:30px;
+	position:absolute;
+	bottom: 50px;
+	left: 220px;
+}
+
+
+
+
+.ye,.ye2{
+	width:30px;
+	height:30px;
+	border:1px solid #ebebeb;
+	border-radius:5px;
+	text-align:center;
+	line-height:30px;
+	
+}
+.ye1,.ye2,.ye,p{
+	float:left;
+	margin-left:10px;
+	
+}
+.ye,.ye1,.ye2{
+	background:#f6f6f6;
+	color:#999;
+}
+.ye1{
+	width:63px;
+	height:30px;
+	border:1px solid #ebebeb;
+	border-radius:5px;
+	text-align:center;
+	line-height:30px;
+}
+p{
+	line-height:30px;
+	text-align:center;
+	color:#999;
+}
+
+
+.ye:hover,.ye1:hover{
+	background:#133d5e;
+	color:#FFF;
+}
+.img{
+	transition: all 0.5s;
+}
+.img:hover{
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+	

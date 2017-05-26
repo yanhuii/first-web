@@ -1,0 +1,227 @@
+
+#all{
+	width: 1280px;
+	height: 980px;
+	margin: auto;
+	font-family: 微软雅黑;
+	position: relative;
+	cursor: pointer;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#top{
+	width: 1280px;
+	height: 75px;
+	background-color: white;
+}
+#top h1{
+	width: 124px;
+	height: 75px;
+	margin-left: 50px;
+	float: left;
+	margin-top: 0px;
+}
+#top nav li,#top nav a{
+	width: 100px;
+	height: 75px;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+	color: gray;
+	float: left;
+}
+#top nav a:hover{
+	color: #dd5044;
+}
+#top nav li{
+	float: left;
+	list-style: none;
+	position: relative;
+    z-index: 2;
+}
+#p1{
+	width: 100px;
+	height: 75px;
+	background:#133d5e;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 524px;
+}
+nav{
+	float: left;
+	margin-left: 50px;
+	text-align: center;
+	line-height: 75px;
+}
+#sou{
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+#sou a{
+	color: gray;
+	text-decoration: none;
+}
+.search input{
+
+	outline: none;
+}
+#sou a:hover{
+	text-decoration: underline;
+}
+.banner{
+	width:1280px;
+	height:171px;
+	overflow:hidden;
+}
+.huiyuan{	
+	margin-top:20px; 
+	margin-left:74px;  
+}
+.huiyuan p{
+	padding-left:25px;
+	font-size:24px;
+}
+.little{
+	width:135px;
+	height:4px;
+	background:#F60;
+	
+}
+.big{
+	width:1280px;
+	height:611px;
+	background:#f2f2f2;
+	position:relative;
+}
+.left{
+	width:345px;
+	height:418px;
+	background:white;
+	position:absolute;
+	left:74px;
+	top:60px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	color:#666;
+	padding-left:30px;
+	padding-top:60px;
+	line-height:45px;
+}
+.right{
+	width:780px;
+	height:418px;
+	background:#fbfbfb;
+	position:absolute;
+	left:419px;
+	top:60px;
+	border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+}
+.left b{
+	color:#000;
+	font-size:18px;
+	
+}
+li{
+	list-style:none;
+	padding-left:0px;
+	list-style-image:url(../images/shop_03.jpg);	
+}
+li:hover{
+	list-style-image:url(../images/shop_16.jpg);
+}
+
+.shangchu{
+	color:#999;
+	text-decoration:line-through;
+}
+.yuanlai {
+	color:#F60;
+}
+.goumai{
+	width:135px;
+	height:40px;
+	background:#F60;
+	border-radius:10px;
+	text-align:center;
+	line-height:40px;
+	color:white;
+	margin-top:20px;
+}
+.goumai:hover{
+	font-size:20px;
+}
+
+.pic{
+	float:left;
+	width:97px;
+	height:172px;
+	margin-left:50px;
+	margin-top:120px;
+	text-align:center;
+}
+.zi{
+	color:#d5d5d5;
+	font-size:12px;
+}
+.suo{
+	color:#afaeae;
+	font-size:14px;
+}
+.gengduo{
+	width:1124px;
+	height:68px;
+	background:white;
+	position:absolute;
+	left:74px;
+	bottom:30px;
+	border-radius:10px;
+	line-height:68px;
+	text-align:center;
+	color:#9b9b9b;
+}
+.img{
+	position:absolute;
+	left:720px;
+	bottom:45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

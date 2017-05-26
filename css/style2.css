@@ -1,0 +1,63 @@
+.p1{
+	position: absolute;
+	left: 80px;
+	top: 15px;
+}
+.p2{
+	position: absolute;
+	left: 220px;
+	top: 57px;
+}
+.p3{
+	position: absolute;
+	left: 350px;
+	top: 57px;
+}
+.p4{
+	position: absolute;
+	left: 513px;
+	top: 15px;
+}
+.p5{
+	position: absolute;
+	left: 695px;
+	top: 15px;
+}
+.p6{
+	position: absolute;
+	left: 873px;
+	top: 15px;
+}
+.p7{
+	position: absolute;
+	left: 1042px;
+	top: 15px;
+}
+#vv{
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	
+	top: 400px;
+	left:0;
+}
+#close1{
+	margin-left: 150px;
+	opacity: 0.3;
+}
+#video1{
+	position: relative;
+	top: -40px;
+	margin-left: 10px;
+	display: none;
+}
+#close1:hover{
+	background: #133d5e;
+	opacity: 1;
+	color: white;
+}
+#video2{
+	position: absolute;
+	top: 0px;
+	left: 93px;
+}

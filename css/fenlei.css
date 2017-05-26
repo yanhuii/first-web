@@ -1,0 +1,142 @@
+#all{
+	width: 1280px;
+	height: 1360px;
+	margin: auto;
+	font-family: 微软雅黑;
+	position: relative;
+	background:#f2f2f2;
+	}
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#top{
+	width: 1280px;
+	height: 75px;
+	background-color: white;
+}
+#top h1{
+	width: 124px;
+	height: 75px;
+	margin-left: 50px;
+	float: left;
+	margin-top: 0px;
+}
+#top nav li,#top nav a{
+	width: 100px;
+	height: 75px;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+	color: gray;
+	float: left;
+}
+#top nav a:hover{
+	color: #dd5044;
+}
+#top nav li{
+	float: left;
+	list-style: none;
+	position: relative;
+    z-index: 2;
+}
+#p1{
+	width: 100px;
+	height: 75px;
+	background:#133d5e;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 424px;
+}
+nav{
+	float: left;
+	margin-left: 50px;
+	text-align: center;
+	line-height: 75px;
+}
+#sou{
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+#sou a{
+	color: gray;
+	text-decoration: none;
+}
+.search input{
+
+	outline: none;
+}
+#sou a:hover{
+	text-decoration: underline;
+}
+.fenlei{
+	width:1280px;
+	height:50px;
+	text-align:left;
+	line-height:50px;
+	color:#000;
+	position:absolute;
+	top:120px;
+	padding-left:50px;
+	font-size:30px;
+}
+table{
+	width:1180px;
+	height:1037px;
+	background:#f2f2f2;
+	position:absolute;
+	left:50px;
+	top:200px;
+	border-spacing:10px;
+	text-align:center;
+	
+}
+a{
+	text-decoration:none;
+	color:#133d5e;
+	
+	
+}
+	
+a:hover{
+	color:#fe5335;
+}
+.img{
+	transition: all 0.5s;
+}
+img:hover{
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

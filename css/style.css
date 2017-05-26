@@ -1,0 +1,359 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#all{
+	width: 1280px;
+	height: 1800px;
+	margin: auto;
+	font-family: 微软雅黑;
+	position: relative;
+}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#top{
+	width: 1280px;
+	height: 75px;
+	background-color: white;
+}
+#top h1{
+	width: 124px;
+	height: 75px;
+	margin-left: 50px;
+	float: left;
+	margin-top: 0px;
+}
+#top nav li,#top nav a{
+	width: 100px;
+	height: 75px;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+	color: gray;
+	float: left;
+}
+#top nav a:hover{
+	color: #dd5044;
+}
+#top nav li{
+	float: left;
+	list-style: none;
+	position: relative;
+    z-index: 2;
+}
+#p1{
+	width: 100px;
+	height: 75px;
+	background:#133d5e;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 224px;
+}
+nav{
+	float: left;
+	margin-left: 50px;
+	text-align: center;
+	line-height: 75px;
+}
+#sou{
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+#sou a{
+	color: gray;
+	text-decoration: none;
+}
+.search input{
+
+	outline: none;
+}
+#sou a:hover{
+	text-decoration: underline;
+}
+#see{
+	height: 598px;
+	position: absolute;
+	top: 75px;
+}
+
+#body{
+	width: 1280px;
+	height: 815px;
+	background: #f2f2f2;
+	position: absolute;
+	top: 598px;
+
+}
+#up{
+	width: 1200px;
+	height: 337px;
+	background: white;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.biaoti{
+	font-size: 20px;
+	width: 1200px;
+	height: 80px;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+.biaoti li{
+	list-style: none;
+	float: left;
+	margin-left: 18px;
+}
+.biaoti li a{
+	width:  90px;
+	height: 21px;
+	text-decoration: none;
+	color: black;
+}
+.biaoti li a:hover{
+	font-size: 24px;
+	color: #133d5e;
+}
+.biaoge1{
+	width: 1161px;
+	height: 217px;
+	border-spacing: 10px;
+	margin-left: 3px;
+}
+.biaoge2{
+	width: 585px;
+	height: 416px;
+	background: white;
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.td{
+	padding-left:8px;
+	padding-top:5px;
+}
+#xinwen{
+	width: 294px;
+	height: 416px;
+	float: left;
+	background: white;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.xw,.tj{
+	align-content: center;
+	line-height: 30px;
+	padding-left: 15px;
+}
+.xw a,.tj a{
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+}
+.xw li,.tj li{
+	list-style: none;
+}
+.xw a:hover,.tj a:hover{
+	text-decoration: underline;
+}
+#tuijian{
+	width: 281px;
+	height: 416px;
+	float: left;
+	background: white;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.tj a{
+	text-decoration: none;
+	color: #6f6f6f;
+	font-size: 16px;
+}
+.tj a:hover{
+	text-decoration: underline;
+	font-size: 18px;
+	color: #123d5f;
+}
+#lianjie{
+	width: 1280px;
+	height: 200px;
+	margin-top: 20px;
+	background: #e5e5e5;
+	float: left;
+	position: relative;
+}
+#lianjie a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #6f6f6f;
+}
+#lianjie a:hover{
+	text-decoration: underline;
+}
+
+
+footer {
+	margin-right: 5px;
+	width: 1280px;
+	height: 104px;
+	background: #333435;
+	float: left;
+	color: whitesmoke;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 3px;
+}
+
+#side{
+	width: 200px;
+	height: 300px;
+	background: #133d5e;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0.9;
+	display: block;
+}
+#side p{
+	color: white;
+	text-align: center;
+	font-family: 宋体；
+}
+.box-mission .icon{
+	width: 174px;
+	height: 155px;
+	display: block;
+	background: url(../images/mission.png) no-repeat;
+	margin: 0 auto;
+	transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	-o-transition:all 0.2s;
+	-moz-transition:all 0.2s;
+}
+
+.box-mission .icon:hover{
+	transform:scale(1.2) rotate(360deg);
+	-webkit-transform:scale(1.2) rotate(360deg);
+	-o-transform:scale(1.2) rotate(360deg);
+	-moz-transform:scale(1.2) rotate(360deg);
+}
+.box .button{
+	width: 156px;
+	height:45px;
+	line-height: 45px;
+	display: block;
+	margin: 20px auto;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: bolder;
+	color: #2ecc71;
+	text-decoration: none;
+	background: url(../images/allow.png) no-repeat 100px center;
+	padding-left: 20px;
+	border:2px solid rgba(255,255,255,0.8);
+	transition:all 0.2s ease;
+	-webkit-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	position: relative;
+}
+
+.box .button:hover{
+	background-position: 140px center;
+	border:2px solid rgba(255,255,255,1);
+}
+
+
+.box .line{
+	background-color: #FFF;
+	display: block;
+	position: absolute;
+	transition:all 0.2s ease;
+	-webkit-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+}
+
+/*
+	设置顶部的线条  从左向右过渡到按钮的上边框位置
+	高度不变 2px
+	宽度由0-》180px
+*/
+
+.box .line-top{
+	width: 0px;
+	height:2px;
+	top:-2px;
+	left:-100%;
+}
+
+.box .button:hover .line-top{
+	width: 180px;
+	left:-2px;
+}
+
+
+/*
+	设置底部的线条  从右向左过渡到按钮的下边框位置
+	高度不变 2px
+	宽度由0-》180px
+*/
+
+.box .line-bottom{
+	width: 0px;
+	height:2px;
+	bottom:-2px;
+	right:-100%;
+}
+
+.box .button:hover .line-bottom{
+	width: 180px;
+	right:-2px;
+}
+
+
+/*
+	设置左部的线条  从下向上过渡到按钮的左边框位置
+	宽度不变 2px
+	高度由0-》49px
+*/
+
+.box .line-left{
+	width: 2px;
+	height:0px;
+	bottom:-100%;
+	left:-2px;
+}
+
+.box .button:hover .line-left{
+	height:49px;
+	bottom:-2px;
+}
+
+/*
+	设置右部的线条  从上向下过渡到按钮的右边框位置
+	宽度不变 2px
+	高度由0-》49px
+*/
+
+.box .line-right{
+	width: 2px;
+	height:0px;
+	top:-100%;
+	right:-2px;
+}
+
+.box .button:hover .line-right{
+	height:49px;
+	top:-2px;
+}
+#close{
+	opacity: 0.8;
+}
+
+
+

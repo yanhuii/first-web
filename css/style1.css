@@ -1,0 +1,453 @@
+.b .c {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b .c img {
+    height: 102px;
+    width: 185px;
+}
+
+.c:hover img,.c:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c {
+    background-image: url(../images/1%20(1).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c:hover .i{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i {
+    position: absolute;
+    top: 130px;
+    left: 115px;
+    width: 60px;
+    height: 60px;
+}/* 第1张图片*/
+
+.b2 .c2 {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b2 .c2 img {
+    height: 102px;
+    width: 185px;
+}
+
+.c2:hover img,.c2:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c2 {
+    background-image: url(../images/1%20(2).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c2:hover .i2{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i2 {
+    position: absolute;
+    top: 130px;/* 注意改变这里的位置 icon才能显示*/
+    left: 315px;
+    width: 60px;
+    height: 60px;
+}/* 第2张图片*/
+
+.b3 .c3 {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b3 .c3 img {
+    height: 102px;
+    width: 185px;
+}
+
+.c3:hover img,.c3:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c3 {
+    background-image: url(../images/1%20(3).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c3:hover .i3{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i3 {
+    position: absolute;
+    top: 130px;/* 注意改变这里的位置 icon才能显示*/
+    left: 515px;
+    width: 60px;
+    height: 60px;
+}/* 第3张图片*/
+
+.b4 .c4 {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b4 .c4 img {
+    height: 102px;
+    width: 185px;
+}
+
+.c4:hover img,.c4:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c4 {
+    background-image: url(../images/1%20(4).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c4:hover .i4{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i4 {
+    position: absolute;
+    top: 130px;/* 注意改变这里的位置 icon才能显示*/
+    left: 705px;
+    width: 60px;
+    height: 60px;
+}/* 第4张图片*/
+
+.b5 .c5 {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b5 .c5 img {
+    height: 102px;
+    width: 185px;
+}
+
+.c5:hover img,.c5:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c5 {
+    background-image: url(../images/1%20(5).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c5:hover .i5{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i5 {
+    position: absolute;
+    top: 130px;/* 注意改变这里的位置 icon才能显示*/
+    left: 905px;
+    width: 60px;
+    height: 60px;
+}/* 第5张图片*/
+.b6 .c6 {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b6 .c6 img {
+    height: 102px;
+    width: 185px;
+}
+
+.c6:hover img,.c6:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c6 {
+    background-image: url(../images/1%20(6).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c6:hover .i6{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i6 {
+    position: absolute;
+    top: 130px;/* 注意改变这里的位置 icon才能显示*/
+    left: 1095px;
+    width: 60px;
+    height: 60px;
+}/* 第6张图片*/
+.b7 .c7 {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b7 .c7 img {
+    height: 102px;
+    width: 185px;
+}
+
+.c7:hover img,.c7:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c7 {
+    background-image: url(../images/1%20(7).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c7:hover .i7{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i7 {
+    position: absolute;
+    top: 245px;/* 注意改变这里的位置 icon才能显示*/
+    left: 115px;
+    width: 60px;
+    height: 60px;
+}/* 第7张图片*/
+.b8 .c8 {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b8 .c8 img {
+    height: 102px;
+    width: 185px;
+}
+
+.c8:hover img,.c8:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c8 {
+    background-image: url(../images/1%20(8).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c8:hover .i8{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i8 {
+    position: absolute;
+    top: 245px;/* 注意改变这里的位置 icon才能显示*/
+    left: 315px;
+    width: 60px;
+    height: 60px;
+}/* 第8张图片*/
+
+.b9 .c9 {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b9 .c9 img {
+    height: 102px;
+    width: 185px;
+}
+
+.c9:hover img,.c9:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c9 {
+    background-image: url(../images/1%20(9).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c9:hover .i9{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i9 {
+    position: absolute;
+    top: 245px;/* 注意改变这里的位置 icon才能显示*/
+    left: 510px;
+    width: 60px;
+    height: 60px;
+}/* 第9张图片*/
+
+
+.b10 .c10 {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b10 .c10 img {
+    height: 102px;
+    width: 185px;
+}
+
+.c10:hover img,.c10:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c10 {
+    background-image: url(../images/1%20(10).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c10:hover .i10{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i10 {
+    position: absolute;
+    top: 245px;/* 注意改变这里的位置 icon才能显示*/
+    left: 705px;
+    width: 60px;
+    height: 60px;
+}/* 第10张图片*/
+
+.b11 .c11 {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b11 .c11 img {
+    height: 102px;
+    width: 185px;
+}
+
+.c11:hover img,.c11:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c11 {
+    background-image: url(../images/1%20(11).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c11:hover .i11{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i11 {
+    position: absolute;
+    top: 245px;/* 注意改变这里的位置 icon才能显示*/
+    left: 900px;
+    width: 60px;
+    height: 60px;
+}/* 第11张图片*/
+
+.b12 .c12 {
+    display: block;
+    height: 102px;
+    overflow: hidden;
+    width: 185px;
+}
+.b12 .c12 img {
+    height: 102px;
+    width: 185px;
+}
+
+.c12:hover img,.c12:hover img {
+    transform: scale(1.3);
+    transition: all 1s ease 0s;
+	-webkit-transform: scale(1.3);
+	-webkit-transform: all 1s ease 0s;
+}
+.c12 {
+    background-image: url(../images/1%20(12).jpg);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+
+
+.c12:hover .i12{
+    background-image: url(../images/ico_play.png);
+	
+}
+
+
+.i12 {
+    position: absolute;
+    top: 245px;/* 注意改变这里的位置 icon才能显示*/
+    left: 1095px;
+    width: 60px;
+    height: 60px;
+}/* 第12张图片*/
